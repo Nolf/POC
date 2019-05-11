@@ -1,0 +1,36 @@
+Release Note
+==============================================================
+폴더 	: RestAPI_Source
+날짜    : 오전 9:30 2019-05-11
+개요	: JAVA SPRING 구조로 RestAPI 구현
+환경 	: jdk1.8.0_162
+	  spring-tool-suite-3.8.4.RELEASE-e4.6.3-win32-x86_64
+	  postgresql-9.3-1102.jdbc41
+=============================================================
+폴더 	: RestAPI_Source
+날짜    : 오후 1:20 2019-05-11
+작업    : // cylim 20190511
+테스트 	: CRUD 기본 테스트 완료
+	// 동작 기본 테스트용
+	// 실행 : http://localhost:8080/info/ (GET)
+	// CREATE : POST
+	// 실행 : http://localhost:8080/info/1/lim/clouder (POST)
+	// READ(SELECT) : GET
+	// 실행 : http://localhost:8080/info/1 (GET)
+	// UPDATE : PUT
+	// 실행 : http://localhost:8080/info/1/lim/system administrator (PUT)
+	// 실행 : http://localhost:8080/info/1 (GET)
+ 	// DELETE
+	// 실행 : http://localhost:8080/info/1 (DELETE)
+	// 실행 : http://localhost:8080/info/1 (GET)
+	// CLEAR
+	// 실행 : http://localhost:8080/info?id=clear(GET)
+=============================================================
+폴더 	: RestAPI_Source
+날짜    : 오후 7:02 2019-05-11
+작업    : // cylim 20190511 - postgresql test code was be added
+테스트 	: postgresql 에서 확인, 만약 설치 안되어 있다면 삭제 처리
+결과 	: RestAPI_Result
+
+
+
